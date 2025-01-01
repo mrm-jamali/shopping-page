@@ -1,6 +1,6 @@
 import Cart from "./models/cart.js";
 import Products from "./models/products.js"
-import { fetchData } from "/utils/httpReq.js"
+import { fetchData } from "./utils/httpReq.js"
 
 const productsNode= document.getElementById("products")
 const cartListNode= document.getElementById("cart-list");
